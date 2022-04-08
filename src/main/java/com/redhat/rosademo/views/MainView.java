@@ -23,7 +23,7 @@ public class MainView extends VerticalLayout {
     addButton.addClickShortcut(Key.ENTER); 
 
     add( 
-      new H1("Red Hat ROSA Demo Todo "),
+      new H1("Red Hat ROSA Demo Todo"),
       todosList,
       new HorizontalLayout(
         taskField,
